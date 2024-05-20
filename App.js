@@ -11,6 +11,7 @@ import {FocusHistory} from "./src/features/FocusHistory";
 
 export default function App() {
   console.log("Initial Commit");
+  console.log("Initial Commit 2");
   const [currentSubject, setCurrentSubject]=useState(null);
 
   const [history,setHistory]=useState([]);
